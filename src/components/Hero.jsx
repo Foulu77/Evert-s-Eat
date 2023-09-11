@@ -13,7 +13,7 @@ function Hero() {
         </div>
         <img
           className="w-full max-h-[500px] object-cover"
-          src="/src/assets/hero.jpg"
+          src="https://www.readersdigest.ca/wp-content/uploads/2015/11/gourmet-burger.jpg"
           alt="burger"
         />
       </div>
