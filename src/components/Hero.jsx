@@ -1,3 +1,5 @@
+import gourmetBurgerImage from "../assets/gourmet-burger.jpg";
+
 function Hero() {
   return (
     <div className="max-w-[1640px] mx-auto p-4">
@@ -13,7 +15,7 @@ function Hero() {
         </div>
         <img
           className="w-full max-h-[500px] object-cover"
-          src="https://www.readersdigest.ca/wp-content/uploads/2015/11/gourmet-burger.jpg"
+          src={gourmetBurgerImage}
           alt="burger"
         />
       </div>

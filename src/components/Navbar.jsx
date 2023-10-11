@@ -1,10 +1,5 @@
 import { useState } from "react";
-import {
-  AiFillTag,
-  AiOutlineClose,
-  AiOutlineMenu,
-  AiOutlineSearch,
-} from "react-icons/ai";
+import { AiFillTag, AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { BsFillCartFill, BsFillSaveFill } from "react-icons/bs";
 import { TbTruckDelivery } from "react-icons/tb";
 import { FaUserFriends, FaWallet } from "react-icons/fa";
