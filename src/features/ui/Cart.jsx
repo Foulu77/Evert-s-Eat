@@ -35,7 +35,7 @@ function Cart() {
   return (
     <div className="h-screen w-screen">
       <Navbar />
-      <div className="m-auto flex justify-center h-[50px] w-full">
+      <div className="my-2 flex justify-center w-full">
         <h1 className="max-w-[1640px] font-bold text-3xl font-comfortaa text-orange-600">
           Shopping Cart
         </h1>

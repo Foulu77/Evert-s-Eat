@@ -19,7 +19,7 @@ function Navbar() {
         >
           <AiOutlineMenu
             size={30}
-            className="text-orange-500 hover:bg-black/10 rounded"
+            className="text-orange-500 hover:scale-110 duration-300 rounded-full border border-orange-600 p-1"
           />
         </div>
         <Link to="/">
@@ -38,7 +38,7 @@ function Navbar() {
 
       {/* cart button*/}
       <Link to="/cart">
-        <button className="bg-gradient-to-r from-orange-500 to-red-700 text-white flex items-center p-2 md:p-4 rounded-full border-transparent text-xs md:text-base shadow-md hover:shadow-orange-400">
+        <button className="bg-gradient-to-r from-orange-500 to-red-700 text-white flex items-center m-2 px-2 py-1 md:px-4 md:py-3 rounded-full border-transparent text-xs md:text-base shadow-md hover:shadow-orange-400 ease-in-out duration-200 hover:scale-95">
           <BsFillCartFill size={20} className="mr-2" />
           Cart
         </button>
